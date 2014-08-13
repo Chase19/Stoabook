@@ -1,0 +1,36 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body{
+	padding: 40px;
+}
+
+#status_content{
+	height: 150px;
+	width: 1140px;
+}
+
+.form-actions{
+	padding: 30px;
+	background-color: #F0F0F0;
+}
+
+.form-actions *{
+	float: right;
+	margin: -15px 5px 0;
+}
+
+ul.pull-right li{
+	display: inline-block;
+}
