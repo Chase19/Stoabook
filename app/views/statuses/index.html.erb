@@ -3,7 +3,7 @@
 </div>
 
 <% if user_signed_in? %>
-  <%= link_to "Update Status", new_status_path, class: "btn btn-primary" %>
+  <%= link_to "Update Status", update_status_path, class: "btn btn-primary" %>
 <% end %>
 
 <% @statuses.each do |status| %>
