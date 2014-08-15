@@ -34,3 +34,7 @@ body{
 ul.pull-right li{
 	display: inline-block;
 }
+
+.alert{
+	margin-top: 30px;
+}

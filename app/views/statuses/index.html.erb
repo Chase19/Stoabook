@@ -2,7 +2,9 @@
   <h1>All Statuses</h1>
 </div>
 
-<%= link_to "Update Status", new_status_path, class: "btn btn-primary" %>
+<% if user_signed_in? %>
+  <%= link_to "Update Status", new_status_path, class: "btn btn-primary" %>
+<% end %>
 
 <% @statuses.each do |status| %>
 
